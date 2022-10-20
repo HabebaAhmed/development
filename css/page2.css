@@ -1,0 +1,144 @@
+*{
+    text-transform: capitalize;
+    color: rgb(191, 193, 200);
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+body{
+    background-color: rgb(30, 32, 43);
+}
+
+
+.navbar span{
+    font-size: 10px;
+}
+header{
+    padding: 40px;
+}
+.nav-link {
+    color: white;
+    font-size: 14px;
+    margin-left: 30px;
+    
+   
+}
+.contact{
+    /* color: rgb(0, 154, 216); */
+    padding: 5px 25px;
+
+   
+    border: 2px solid rgb(0, 154, 216) ;
+    border-radius: 30px;
+    
+    
+}
+
+.contact a{
+    margin-left:0 ;
+}
+
+.content-link{
+    width: 90%;
+    background: rgb(39, 42, 56);
+    padding: 15px 20px;
+    border-radius: 30px;
+
+}
+.content-link a{
+    text-decoration: none;
+    font-size: 14px;
+    color: white;
+    
+}
+.nav-link:hover{
+    color:rgb(0, 154, 216) ;
+
+    
+}
+@media screen  and (max-width: 991px){
+    .nav-link{
+       
+        text-align: center;
+      
+    }
+    .contact{
+        border: none;
+        margin-left: 25px;
+    }
+    .contact-us{
+        margin-top: 20px;
+    }
+}
+
+.information{
+    width: 88%;
+    margin: auto;
+   
+}
+.cont{
+    background: rgb(39, 42, 56);
+    padding: 20px;
+    border-radius: 10px;
+    
+}
+.cont i{
+    color: rgb(0, 154, 216);
+}
+.formInputs input , .information textarea{
+background: rgb(39, 42, 56);
+margin-bottom: 10px;
+border-radius: 30px;
+border: none;
+padding:15px;
+}
+.information h2{
+    color: white;
+    font-size: 40px;
+}
+::placeholder{
+    font-size: 14px;
+}
+
+/* ________________________________ */
+
+footer{
+    background: rgb(49, 52, 63);
+}
+.inputbtn input{
+    border-radius:30px ;
+   padding: 14px ;
+    background-color:#1e202b;
+    border: none;
+}
+
+.inputbtn{
+    position: relative;
+}
+.inputbtn .btn{
+    border-radius: 30px;
+    position: absolute;
+    top: 7px;
+    right: 20px;
+}
+.icons i{
+    background-color: #1e202b;
+    color: rgb(13,202,240);
+    padding: 10px;
+    border-radius: 50%;
+    font-size: 15px;
+    margin-left: 10px;
+}
+.icons i:hover{
+    background-color: rgb(13,202,240) ;
+    color: white;
+
+}
+footer p{
+    font-size: 14px;
+}
+.ccc{
+    width: 90%;
+    margin: auto;
+}
